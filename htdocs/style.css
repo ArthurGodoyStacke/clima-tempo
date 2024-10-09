@@ -1,0 +1,89 @@
+body {
+    
+    text-align: center;
+    background-color: rgb(230, 255, 240);
+    margin: 0;
+    font-family: 'Arial', sans-serif; 
+    cursor: pointer;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    background-color: rgb(0, 200, 150); 
+    color: white;
+    font-size: 24px; 
+    border-radius: 15px;
+    border: 2px solid rgb(0, 150, 100);
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px auto; 
+    width: 80%; 
+   
+}
+
+h2 {    
+    background-color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 200, 150);
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 15px;
+    width: 70%; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.temperatura, .maxima, .minima {
+    background-color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 200, 150);
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 15px;
+    width: 70%; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+  
+}
+
+.maxima, .minima {
+    margin-bottom: 15px;
+   
+}
+
+.chuva, .vento, .umidade, .sol {
+    background-color: rgb(0, 200, 150);
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2;
+ 
+}
+
+.imagens {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  
+}
+
+.imagens img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(0, 200, 150);
+    transition: 0.3s;
+    
+}
+
+.imagens img:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+    transition: border-shadow 12px;
+}
+
+
